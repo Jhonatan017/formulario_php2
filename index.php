@@ -26,7 +26,7 @@
          <td>Producto3</td>
           <td> <input type="text" name="Product3"class="caja5"></td>
          <tr>
-         <td>Precio 3</td>
+         <td>Precio3</td>
           <td> <input type="text" name="Precio3"class="caja6"></td>
        </tr>
          <tr>
