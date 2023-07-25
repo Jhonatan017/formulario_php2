@@ -1,27 +1,27 @@
 <?php
-        $producto1 = $_POST['product1'];
-        $precio1 = $_POST['precio1'];
+        $Producto1 = $_POST['Product1'];
+        $Precio1 = $_POST['Precio1'];
         
-        $producto2 = $_POST['product2'];
-        $precio2 = $_POST['precio2'];
+        $Producto2 = $_POST['Product2'];
+        $Precio2 = $_POST['Precio2'];
         
-        $producto3 = $_POST['product3'];
-        $precio3 = $_POST['precio3'];
+        $Producto3 = $_POST['Product3'];
+        $Precio3 = $_POST['Precio3'];
         
-        $total = $precio1 + $precio2 + $precio3;
+        $total = $Precio1 + $Precio2 + $Precio3;
         $descuento = $total * 0.16;
         $totalPagar = $total - $descuento;
-echo "Producto1:".$product1;
+echo "Producto1:".$Product1;
 echo"<br>";
-  echo "Precio1:".$precio1;
+  echo "Precio1:".$Precio1;
 echo"<br>";
-  echo "Producto2:".$product2;
+  echo "Producto2:".$Product2;
 echo"<br>";
-  echo "Precio2:".$precio2;
+  echo "Precio2:".$Precio2;
 echo"<br>";
-echo "Producto2:".$product3;
+echo "Producto2:".$Product3;
 echo"<br>";
-  echo "Precio2:".$precio3;
+  echo "Precio2:".$Precio3;
 echo"<br>";
   echo "Total a pagar:".$total;
 echo"<br>";
