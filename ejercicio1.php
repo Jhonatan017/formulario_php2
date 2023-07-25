@@ -3,7 +3,7 @@
   </head>
   
   <body>
-  <form name="Tienda" class="formulario" action="informacion.php" method="POST">
+  <form name="Tienda" class="formulario" action="taller1.php" method="POST">
      <table class="tabla" border="1">
        <tr>
           <td>PRODUCTO</td>
