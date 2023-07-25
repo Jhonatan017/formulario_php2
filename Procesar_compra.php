@@ -11,15 +11,15 @@
         $total = $Precio1 + $Precio2 + $Precio3;
         $descuento = $total * 0.16;
         $totalPagar = $total - $descuento;
-echo "El producto 1 ingresado es:".$Product1;
+echo "El producto 1 ingresado es:".$Producto1;
 echo"<br>";
   echo "El precio del producto 1 es:".$Precio1;
 echo"<br>";
-  echo "El producto 2 ingresado es:".$Product2;
+  echo "El producto 2 ingresado es:".$Producto2;
 echo"<br>";
   echo "El precio del producto 2 es:".$Precio2;
 echo"<br>";
-echo "El producto 3 ingresado es:".$Product3;
+echo "El producto 3 ingresado es:".$Producto3;
 echo"<br>";
   echo "El precio del producto 3 es:".$Precio3;
 echo"<br>";
